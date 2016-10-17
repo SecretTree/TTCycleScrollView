@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3312151DAE836C00391A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312141DAE836C00391A0C /* AppDelegate.swift */; };
+		3A3312171DAE836C00391A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312161DAE836C00391A0C /* ViewController.swift */; };
+		3A33121A1DAE836C00391A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3312181DAE836C00391A0C /* Main.storyboard */; };
+		3A33121C1DAE836C00391A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A33121B1DAE836C00391A0C /* Assets.xcassets */; };
+		3A33121F1DAE836C00391A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A33121D1DAE836C00391A0C /* LaunchScreen.storyboard */; };
+		3A33122A1DAE836C00391A0C /* TTCycleScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312291DAE836C00391A0C /* TTCycleScrollViewTests.swift */; };
+		3A3312351DAE836C00391A0C /* TTCycleScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312341DAE836C00391A0C /* TTCycleScrollViewUITests.swift */; };
+		3A3312441DAE843200391A0C /* TTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312431DAE843200391A0C /* TTCollectionViewCell.swift */; };
+		3A3312461DAE847D00391A0C /* TTCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312451DAE847D00391A0C /* TTCycleScrollView.swift */; };
+		3A3312481DAE84B800391A0C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312471DAE84B800391A0C /* UIView+Extension.swift */; };
+		D9F096A9BA8BA7F46C1FA953 /* Pods_TTCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBCBBFF6633C3059A55DC6D /* Pods_TTCycleScrollView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3312261DAE836C00391A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3312091DAE836C00391A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3312101DAE836C00391A0C;
+			remoteInfo = TTCycleScrollView;
+		};
+		3A3312311DAE836C00391A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3312091DAE836C00391A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3312101DAE836C00391A0C;
+			remoteInfo = TTCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F69A35774AE2CF82236D8A6 /* Pods-TTCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTCycleScrollView/Pods-TTCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3312111DAE836C00391A0C /* TTCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3312141DAE836C00391A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A3312161DAE836C00391A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A3312191DAE836C00391A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A33121B1DAE836C00391A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A33121E1DAE836C00391A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3312201DAE836C00391A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3312251DAE836C00391A0C /* TTCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3312291DAE836C00391A0C /* TTCycleScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCycleScrollViewTests.swift; sourceTree = "<group>"; };
+		3A33122B1DAE836C00391A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3312301DAE836C00391A0C /* TTCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3312341DAE836C00391A0C /* TTCycleScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCycleScrollViewUITests.swift; sourceTree = "<group>"; };
+		3A3312361DAE836C00391A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3312431DAE843200391A0C /* TTCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A3312451DAE847D00391A0C /* TTCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCycleScrollView.swift; sourceTree = "<group>"; };
+		3A3312471DAE84B800391A0C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CCBCBBFF6633C3059A55DC6D /* Pods_TTCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C4BB8EBF3E66692EF0C07B /* Pods-TTCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCycleScrollView/Pods-TTCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A33120E1DAE836C00391A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F096A9BA8BA7F46C1FA953 /* Pods_TTCycleScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3312221DAE836C00391A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A33122D1DAE836C00391A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3312081DAE836C00391A0C = {
+			isa = PBXGroup;
+			children = (
+				3A3312131DAE836C00391A0C /* TTCycleScrollView */,
+				3A3312281DAE836C00391A0C /* TTCycleScrollViewTests */,
+				3A3312331DAE836C00391A0C /* TTCycleScrollViewUITests */,
+				3A3312121DAE836C00391A0C /* Products */,
+				84CB9C4B66D350D0B5CBE814 /* Pods */,
+				CD5B19F0AC6BE23494EF0963 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3312121DAE836C00391A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3312111DAE836C00391A0C /* TTCycleScrollView.app */,
+				3A3312251DAE836C00391A0C /* TTCycleScrollViewTests.xctest */,
+				3A3312301DAE836C00391A0C /* TTCycleScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3312131DAE836C00391A0C /* TTCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3A3312421DAE83C800391A0C /* Lib */,
+				3A3312141DAE836C00391A0C /* AppDelegate.swift */,
+				3A3312161DAE836C00391A0C /* ViewController.swift */,
+				3A3312181DAE836C00391A0C /* Main.storyboard */,
+				3A33121B1DAE836C00391A0C /* Assets.xcassets */,
+				3A33121D1DAE836C00391A0C /* LaunchScreen.storyboard */,
+				3A3312201DAE836C00391A0C /* Info.plist */,
+			);
+			path = TTCycleScrollView;
+			sourceTree = "<group>";
+		};
+		3A3312281DAE836C00391A0C /* TTCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3312291DAE836C00391A0C /* TTCycleScrollViewTests.swift */,
+				3A33122B1DAE836C00391A0C /* Info.plist */,
+			);
+			path = TTCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		3A3312331DAE836C00391A0C /* TTCycleScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3312341DAE836C00391A0C /* TTCycleScrollViewUITests.swift */,
+				3A3312361DAE836C00391A0C /* Info.plist */,
+			);
+			path = TTCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		3A3312421DAE83C800391A0C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3A3312431DAE843200391A0C /* TTCollectionViewCell.swift */,
+				3A3312451DAE847D00391A0C /* TTCycleScrollView.swift */,
+				3A3312471DAE84B800391A0C /* UIView+Extension.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		84CB9C4B66D350D0B5CBE814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F69A35774AE2CF82236D8A6 /* Pods-TTCycleScrollView.debug.xcconfig */,
+				D7C4BB8EBF3E66692EF0C07B /* Pods-TTCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD5B19F0AC6BE23494EF0963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBCBBFF6633C3059A55DC6D /* Pods_TTCycleScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3312101DAE836C00391A0C /* TTCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3312391DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollView" */;
+			buildPhases = (
+				C515A68AE95B143A17B687C7 /* [CP] Check Pods Manifest.lock */,
+				3A33120D1DAE836C00391A0C /* Sources */,
+				3A33120E1DAE836C00391A0C /* Frameworks */,
+				3A33120F1DAE836C00391A0C /* Resources */,
+				0796CE0B8411657AF0ACD639 /* [CP] Embed Pods Frameworks */,
+				7FB0C85282FB76A3E7614455 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCycleScrollView;
+			productName = TTCycleScrollView;
+			productReference = 3A3312111DAE836C00391A0C /* TTCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3312241DAE836C00391A0C /* TTCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A33123C1DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollViewTests" */;
+			buildPhases = (
+				3A3312211DAE836C00391A0C /* Sources */,
+				3A3312221DAE836C00391A0C /* Frameworks */,
+				3A3312231DAE836C00391A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3312271DAE836C00391A0C /* PBXTargetDependency */,
+			);
+			name = TTCycleScrollViewTests;
+			productName = TTCycleScrollViewTests;
+			productReference = 3A3312251DAE836C00391A0C /* TTCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A33122F1DAE836C00391A0C /* TTCycleScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A33123F1DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollViewUITests" */;
+			buildPhases = (
+				3A33122C1DAE836C00391A0C /* Sources */,
+				3A33122D1DAE836C00391A0C /* Frameworks */,
+				3A33122E1DAE836C00391A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3312321DAE836C00391A0C /* PBXTargetDependency */,
+			);
+			name = TTCycleScrollViewUITests;
+			productName = TTCycleScrollViewUITests;
+			productReference = 3A3312301DAE836C00391A0C /* TTCycleScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3312091DAE836C00391A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wang Shuqing";
+				TargetAttributes = {
+					3A3312101DAE836C00391A0C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SQ2WGSFBZ;
+						ProvisioningStyle = Automatic;
+					};
+					3A3312241DAE836C00391A0C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SQ2WGSFBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3312101DAE836C00391A0C;
+					};
+					3A33122F1DAE836C00391A0C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3SQ2WGSFBZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3312101DAE836C00391A0C;
+					};
+				};
+			};
+			buildConfigurationList = 3A33120C1DAE836C00391A0C /* Build configuration list for PBXProject "TTCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3312081DAE836C00391A0C;
+			productRefGroup = 3A3312121DAE836C00391A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3312101DAE836C00391A0C /* TTCycleScrollView */,
+				3A3312241DAE836C00391A0C /* TTCycleScrollViewTests */,
+				3A33122F1DAE836C00391A0C /* TTCycleScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A33120F1DAE836C00391A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A33121F1DAE836C00391A0C /* LaunchScreen.storyboard in Resources */,
+				3A33121C1DAE836C00391A0C /* Assets.xcassets in Resources */,
+				3A33121A1DAE836C00391A0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3312231DAE836C00391A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A33122E1DAE836C00391A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0796CE0B8411657AF0ACD639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCycleScrollView/Pods-TTCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB0C85282FB76A3E7614455 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCycleScrollView/Pods-TTCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C515A68AE95B143A17B687C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A33120D1DAE836C00391A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3312461DAE847D00391A0C /* TTCycleScrollView.swift in Sources */,
+				3A3312441DAE843200391A0C /* TTCollectionViewCell.swift in Sources */,
+				3A3312171DAE836C00391A0C /* ViewController.swift in Sources */,
+				3A3312481DAE84B800391A0C /* UIView+Extension.swift in Sources */,
+				3A3312151DAE836C00391A0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3312211DAE836C00391A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A33122A1DAE836C00391A0C /* TTCycleScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A33122C1DAE836C00391A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3312351DAE836C00391A0C /* TTCycleScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3312271DAE836C00391A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3312101DAE836C00391A0C /* TTCycleScrollView */;
+			targetProxy = 3A3312261DAE836C00391A0C /* PBXContainerItemProxy */;
+		};
+		3A3312321DAE836C00391A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3312101DAE836C00391A0C /* TTCycleScrollView */;
+			targetProxy = 3A3312311DAE836C00391A0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3312181DAE836C00391A0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3312191DAE836C00391A0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A33121D1DAE836C00391A0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A33121E1DAE836C00391A0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3312371DAE836C00391A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3312381DAE836C00391A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A33123A1DAE836C00391A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F69A35774AE2CF82236D8A6 /* Pods-TTCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A33123B1DAE836C00391A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C4BB8EBF3E66692EF0C07B /* Pods-TTCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3A33123D1DAE836C00391A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCycleScrollView.app/TTCycleScrollView";
+			};
+			name = Debug;
+		};
+		3A33123E1DAE836C00391A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCycleScrollView.app/TTCycleScrollView";
+			};
+			name = Release;
+		};
+		3A3312401DAE836C00391A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TTCycleScrollView;
+			};
+			name = Debug;
+		};
+		3A3312411DAE836C00391A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3SQ2WGSFBZ;
+				INFOPLIST_FILE = TTCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.shuqing.TTCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TTCycleScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A33120C1DAE836C00391A0C /* Build configuration list for PBXProject "TTCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3312371DAE836C00391A0C /* Debug */,
+				3A3312381DAE836C00391A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3312391DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A33123A1DAE836C00391A0C /* Debug */,
+				3A33123B1DAE836C00391A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A33123C1DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A33123D1DAE836C00391A0C /* Debug */,
+				3A33123E1DAE836C00391A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A33123F1DAE836C00391A0C /* Build configuration list for PBXNativeTarget "TTCycleScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3312401DAE836C00391A0C /* Debug */,
+				3A3312411DAE836C00391A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3312091DAE836C00391A0C /* Project object */;
+}
