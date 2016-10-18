@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         let view2 = TTCycleScrollView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 200), imageNamesGroup: imagesURL)
         
-        view2.titlesGroup = ["1", "2", "3"]
+        view2.titlesGroup = ["1111111", "222222", "33333"]
         view2.autoScroll = true
         
         view.addSubview(view2)

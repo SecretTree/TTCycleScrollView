@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2209E41DB6765D00EC5238 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2209E31DB6765D00EC5238 /* placeholder@2x.png */; };
 		3A3312151DAE836C00391A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312141DAE836C00391A0C /* AppDelegate.swift */; };
 		3A3312171DAE836C00391A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3312161DAE836C00391A0C /* ViewController.swift */; };
 		3A33121A1DAE836C00391A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3312181DAE836C00391A0C /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2F69A35774AE2CF82236D8A6 /* Pods-TTCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTCycleScrollView/Pods-TTCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2209E31DB6765D00EC5238 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		3A3312111DAE836C00391A0C /* TTCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3312141DAE836C00391A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A3312161DAE836C00391A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				3A3312421DAE83C800391A0C /* Lib */,
 				3A3312141DAE836C00391A0C /* AppDelegate.swift */,
+				3A2209E31DB6765D00EC5238 /* placeholder@2x.png */,
 				3A3312161DAE836C00391A0C /* ViewController.swift */,
 				3A3312181DAE836C00391A0C /* Main.storyboard */,
 				3A33121B1DAE836C00391A0C /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			files = (
 				3A33121F1DAE836C00391A0C /* LaunchScreen.storyboard in Resources */,
 				3A33121C1DAE836C00391A0C /* Assets.xcassets in Resources */,
+				3A2209E41DB6765D00EC5238 /* placeholder@2x.png in Resources */,
 				3A33121A1DAE836C00391A0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

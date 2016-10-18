@@ -20,7 +20,7 @@ class TTCollectionViewCell: UICollectionViewCell {
         return imageView
     }()
     
-    var titleLabelTextColor: UIColor = .black {
+    var titleLabelTextColor: UIColor = .blue {
         didSet {
             titleLabel.textColor = titleLabelTextColor
         }
@@ -44,7 +44,7 @@ class TTCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    var hasConfigred: Bool = true
+    var hasConfigred: Bool = false
     
     var onlyDisplayText: Bool = false
     
@@ -74,9 +74,9 @@ class TTCollectionViewCell: UICollectionViewCell {
             imageView.frame = self.bounds
             let titleLabelW = self.bounds.size.width
             let titleLabelH = titleLabelHeight
-            let titleLabelX = 0
+            let titleLabelX: CGFloat = 0.0
             let titleLabelY = self.bounds.size.height - titleLabelH
-            titleLabel.frame = CGRect(x: CGFloat(titleLabelX), y: titleLabelY, width: titleLabelW, height: titleLabelH)
+            titleLabel.frame = CGRect(x: titleLabelX, y: titleLabelY, width: titleLabelW, height: titleLabelH)
         }
     }
     
